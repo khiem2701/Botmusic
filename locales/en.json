@@ -1,0 +1,166 @@
+{
+	"clip": {
+		"description": "Plays a clip sound",
+		"usagesReply": "Usage: /clip <name>",
+		"errorQueue": "Can't play clip because there is an active queue.",
+		"errorNotChannel": "You need to join a voice channel first!"
+	},
+	"clips": {
+		"description": "List all clips"
+	},
+	"help": {
+		"description": "Hiển thị tất cả lệnh của tôi",
+		"embedTitle": "**Các lệnh**",
+		"embedDescription": "Bot được code bởi HuyCoder#6817"
+	},
+	"invite": {
+		"description": "Lấy link invite bot"
+	},
+	"loop": {
+		"description": "Chế độ lặp",
+		"errorNotQueue": "Không có gì đang phát cả :)? ",
+		"result": "Chế độ lặp đã được đặt thành {loop}"
+	},
+	"lyrics": {
+		"description": "Lấy lời bài hát đang phát ( BETA )",
+		"errorNotQueue": "Không có gì đang phát cả :)? ",
+		"lyricsNotFound": "No lyrics found for {title}.",
+		"embedTitle": "{title} - Lyrics"
+	},
+	"move": {
+		"description": "Chuyển 1 bài hát vào danh sách phát",
+		"errorNotQueue": "Không thấy gì trong danh sách phát cả",
+		"usagesReply": "Usage: {prefix}move <Queue Number>",
+		"result": "<@{author}> 🚚 moved **{title}** to {index} in the queue."
+	},
+	"nowplaying": {
+		"description": "Xem bài gì đang phát",
+		"errorNotQueue": "Không có gì đang phát cả :)? ",
+		"embedTitle": "Đang Phát",
+		"live": " ◉ TRỰC TIẾP",
+		"timeRemaining": "Thời gian còn lại: {time}"
+	},
+	"pause": {
+		"description": "Tạm dừng bài hát đang phát",
+		"errorNotQueue": "Không có gì đang phát cả :)? ",
+		"result": "<@{author}> ⏸ Đã tạm dừng nhạc."
+	},
+	"ping": {
+		"description": "Xem tốc độ phản hồi của bot",
+		"result": "📈 Average ping to API: {ping} ms"
+	},
+	"play": {
+		"description": "Phát nhạc từ YouTube ",
+		"errorNotChannel": "Bạn phải vào kênh thoại đã chứ",
+		"errorNotInSameChannel": "Bạn phải cùng phòng với {user}",
+		"usageReply": "Dùng: {prefix}play <YouTube URL | Video Name | Soundcloud URL>",
+		"missingPermissionConnect": "Tôi không thể kết nổi với kênh thoại đó, vui lòng kiểm tra lại quyền của tôi!",
+		"missingPermissionSpeak": "Tôi không thể nói được trong kênh này, vui lòng kiểm tra lại quyền của tôi !",
+		"queueAdded": "✅ **{title}** đã được thêm vào danh sách phát bởi <@{author}>",
+		"cantJoinChannel": "Không thể vào kênh thoại: {error}",
+		"queueEnded": "❌ Danh sách phát đã hết",
+		"queueError": "Error: {error}",
+		"startedPlaying": "🎶 Bắt đầu phát bài: **{title}**",
+		"skipSong": "<@{author}> ⏩ đã skip bài hiện tại !",
+		"pauseSong": "<@{author}> ⏸ đã tạm dừng nhạc !",
+		"resumeSong": "<@{author}> ▶ đã tiếp tục nhạc !",
+		"unmutedSong": "<@{author}> 🔊 đã bỏ tắt tiếng nhạc!",
+		"mutedSong": "<@{author}> 🔇 đã tắt tiếng nhạc !",
+		"decreasedVolume": "<@{author}> 🔉 đã giảm âm lượng, mức âm lượng hiện tại là  {volume}%",
+		"increasedVolume": "<@{author}> 🔊 đã tăng thêm âm lượng, mức âm lượng hiện tại là  {volume}%",
+		"loopSong": "<@{author}> Chế độ lặp đã được đặt thành {loop}",
+		"stopSong": "<@{author}> ⏹ Đã dừng nhạc lại",
+		"leaveChannel": "Leaving voice channel..."
+	},
+	"playlist": {
+		"description": "Phát nhạc từ YouTube ",
+		"usagesReply": "Dùng: {prefix}playlist <YouTube Playlist URL | Playlist Name>",
+		"errorNotChannel": "Bạn phải vào kênh thoại đã chứ",
+		"errorNotInSameChannel": "Bạn phải cùng phòng với {user}",
+		"missingPermissionConnect": "Tôi không thể kết nổi với kênh thoại đó, vui lòng kiểm tra lại quyền của tôi!",
+		"missingPermissionSpeak": "Tôi không thể nói được trong kênh này, vui lòng kiểm tra lại quyền của tôi !",
+		"errorNotFoundPlaylist": "Haizzz, không thấy danh sách phát nào cả :(",
+		"fetchingPlaylist": "⌛ Đang tìm nạp danh sách phát",
+		"playlistCharLimit": "\nDanh sách phát vượt quá giới hạn ký tự",
+		"startedPlaylist": "<@{author}> Đã bắt đầu danh sách phát",
+		"cantJoinChannel": "Không thể vào kênh thoại: {error}"
+	},
+	"pruning": {
+		"description": "Toggle pruning of bot messages",
+		"errorWritingFile": "There was an error writing to the file.",
+		"result": "Message pruning is {result}"
+	},
+	"queue": {
+		"description": "Xem danh sách bài hát và xem bài gì đang phát",
+		"missingPermissionMessage": "Tôi thiếu quyền quản lý tin nhắn và thêm biểu cảm",
+		"errorNotQueue": "❌ **Không có bài gì đang phát**",
+		"currentPage": "Trang hiện tại - ",
+		"embedTitle": "Song Queue\n",
+		"embedCurrentSong": "**Bài hát hiện tại - [{title}]({url})**\n\n{info}"
+	},
+	"remove": {
+		"description": "Xóa 1 bài nhạc khỏi danh sách ",
+		"errorNotQueue": "Không thấy gì trong danh sách phát cả",
+		"usageReply": "Dùng: {prefix}remove <Queue Number>",
+		"result": "<@{author}> ❌ đã xóa bài **{title}** khỏi danh sách bài hát"
+	},
+	"resume": {
+		"description": "Resume currently playing music",
+		"errorNotQueue": "There is nothing playing.",
+		"resultNotPlaying": "<@{author}> ▶ resumed the music!",
+		"errorPlaying": "The queue is not paused."
+	},
+	"search": {
+		"description": "Search and select videos to play",
+		"usageReply": "Usage: {prefix}{name} <Video Name>",
+		"errorAlreadyCollector": "A message collector is already active in this channel.",
+		"errorNotChannel": "You need to join a voice channel first!",
+		"resultEmbedTtile": "**Reply with the song number you want to play**",
+		"resultEmbedDesc": "Results for: {search}"
+	},
+	"shuffle": {
+		"description": "Shuffle queue",
+		"errorNotQueue": "There is no queue.",
+		"result": "<@{author}> 🔀 shuffled the queue"
+	},
+	"skip": {
+		"description": "Skip the currently playing song",
+		"errorNotQueue": "There is nothing playing that I could skip for you.",
+		"result": "<@{author}> ⏭ skipped the song"
+	},
+	"skipto": {
+		"description": "Skip to the selected queue number",
+		"usageReply": "Usage: {prefix}{name} <Queue Number>",
+		"errorNotQueue": "There is no queue.",
+		"errorNotValid": "The queue is only {length} songs long!",
+		"result": "<@{author}> ⏭ skipped {arg} songs"
+	},
+	"stop": {
+		"description": "Stops the music",
+		"errorNotQueue": "There is nothing playing.",
+		"result": "<@{author}> ⏹ stopped the music!"
+	},
+	"uptime": {
+		"description": "Xem bot này đã hoạt động được bao lâu kể từ khi kích hoạt ",
+		"result": "Bot đã hoạt động được : `{days} ngày(s),{hours} giờ, {minutes} phút, {seconds} giây`"
+	},
+	"volume": {
+		"description": "Thay đổi âm lượng máy phát nhạc",
+		"errorNotQueue": "Không có gì đang phát cả :)? ",
+		"errorNotChannel": "Bạn phải vào kênh thoại đã chứ",
+		"currentVolume": "🔊 Âm lượng hiện tại là: **{volume}%**",
+		"errorNotNumber": "Please use a number to set volume.",
+		"errorNotValid": "Hãy nhập chỉ số âm lượng trong phạm vi  0 - 10000 ( khuyên dùng mức 100).",
+		"result": "Đã đặt âm lượng thành: **{arg}%**"
+	},
+	"common": {
+		"on": "**on**",
+		"off": "**off**",
+		"enabled": "**enabled**",
+		"disabled": "**disabled**",
+		"errorNotChannel": "You need to join a voice channel first!",
+		"cooldownMessage": "please wait {time} more second(s) before reusing the `{name}` command.",
+		"errorCommend": "Đã xuất hiện lỗi khi chạy lệnh này :("
+	},
+	"Make bot leave voice": "Dùng để làm cho bot ra khỏi phòng của bạn"
+}
